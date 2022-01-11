@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#Running the App
+
+Clone the repository and run yarn install to install the necessary packages.
+After that you can run the command yarn start to the run the app in development mode.
+
 ## Available Scripts
 
 In the project directory, you can run:
