@@ -1,0 +1,66 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #072227;
+}
+
+.App span {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.user {
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 1.2em;
+  border: 4px solid #fff;
+}
+
+.user span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(233, 233, 233, 0.8);
+}
+
+.user p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #aefeff;
+}
+
+.btn-refresh {
+  background-color: #35858b;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #fff;
+  width: 200px;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
