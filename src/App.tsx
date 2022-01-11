@@ -57,7 +57,7 @@ const  App : React.FC = () => {
     <div className="App">
       {loading ? <span >Loading...</span> 
       : <UserBox fullname={user.fullname} address={user.address} img={user.picture}/>}
-      <button onClick={handleClick} className='btn-refresh'>Refresh</button>
+      <button  onClick={handleClick} className='btn-refresh'>Refresh</button>
     </div>
   );
 }
